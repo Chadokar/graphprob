@@ -1,8 +1,6 @@
-// import React from "react";
 import "./App.css";
 import Graph from "./Graph";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-// import Chart from "./Chart";
 const queryClient = new QueryClient();
 
 function App() {
